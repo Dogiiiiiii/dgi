@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Зар оруулах</title>
+</head>
+<body>
+	<header><h1>Зар оруулах хэсэг</h1></header>
+	<form method="post">
+		<h2>Өөрийн мэдээлэл</h2>
+		<label>
+			<h3>Нэр:<input type="text" id="name" autofocus="" required="name"></h3>
+		</label>
+		<label>
+			<h3>Эмайл хаяг:<input type="email" placeholder="name@domain.com" id="email" name="email" required></h3>
+		</label>
+		<label>
+			<h3>Утас:<input type="tel" placeholder="#### ####" pattern="\d{4}+\d{4}" id="phone" name="tel" required></h3>
+		</label>
+			<h2>Машин мэдээлэл</h2>
+		<label>
+			<h3>Машины өнгө: <input type="color" name="color" ></h3>
+		</label>
+		<label>
+			<h3>Үйлдвэрлэсэн огноо: <input type="date" name="fdate" required></h3>
+		</label>
+		<label>
+			<h3>Монголд орж ирсэн огноо:<input type="month" name="idate"></h3>
+		</label>
+		<label>
+			<h3>Хэдэн жил унасан: <input type="number" min="0" step="1" value="1" name="year"></h3>
+		</label>
+		<label>
+			<h3>Хэдэн КМ:0<input type="range" min="0" value="0" max="100000" name="km">100'000</h3>
+		</label>
+		<label>
+			<h3>Үнэ: <input type="number" name="price"></h3>
+		</label>
+		<label>
+			<h3>Машины зураг:<input type="file" name="photo"></h3>
+		</label>
+		<label>
+			<input type="submit" value="Submit" formnovalidate>
+		</label>
+	</form>
+</body>
+</html>
